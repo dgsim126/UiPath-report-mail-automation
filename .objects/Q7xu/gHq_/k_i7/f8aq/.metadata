@@ -1,0 +1,14 @@
+﻿{
+  "Name": "새 메일",
+  "Type": "Element",
+  "TaxonomyType": "Button",
+  "Id": "f8aqdDJZbUiYHcTth_rdPQ",
+  "Reference": "56aUFffDmUGJo62Ai9IUvg/f8aqdDJZbUiYHcTth_rdPQ",
+  "ParentRef": "56aUFffDmUGJo62Ai9IUvg/k_i7lqSpLEiUAMEF0qxkjg",
+  "Created": "2025-12-28T05:28:48.8085036Z",
+  "Updated": "2025-12-28T05:28:48.8085036Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

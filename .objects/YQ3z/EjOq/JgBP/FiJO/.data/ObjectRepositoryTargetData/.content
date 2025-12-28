@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="l_tH6MqqjUaz9ma30wc0-Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="16.176.4.128/admin" CVScreenId="cb2131af-e4c5-4e33-9520-b38d0517adc0" CvTextArea="343, 155, 186, 34" CvTextArgument="22|A} ī||0|E|" CvType="Text" DesignTimeRectangle="345, 153, 185, 36" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;h1' tag='H1' /&gt;" Guid="5af063bd-a829-412c-8038-7438ddcae05c" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vite App' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="8510020213a2598a475836e8f46fbf79.png" xmlns="">0L0ZOEd1CxE-cjBXrZUWulA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

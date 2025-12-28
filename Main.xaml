@@ -1,0 +1,450 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Main" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ActivityBuilder_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:sd="clr-namespace:System.Drawing;assembly=System.Drawing.Common" xmlns:sd1="clr-namespace:System.Drawing;assembly=System.Drawing.Primitives" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Activities.Runtime.Collections</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>UiPath.Persistence.Activities.Tasks</x:String>
+      <x:String>UiPath.Persistence.Activities.Model.Task</x:String>
+      <x:String>UiPath.Persistence.Activities</x:String>
+      <x:String>UiPath.Platform.ResourceHandling</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.Mail</x:String>
+      <x:String>UiPath.Mail.Activities.Enums</x:String>
+      <x:String>UiPath.Shared.Activities.Utils</x:String>
+      <x:String>UiPath.Mail.Outlook.Activities</x:String>
+      <x:String>UiPath.Mail.Activities</x:String>
+      <x:String>System.Security</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>UiPath.Persistence.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.Mail</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Mail.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <sap:WorkflowViewStateService.ViewState>
+    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+      <x:Boolean x:Key="ShouldCollapseAll">False</x:Boolean>
+      <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
+    </scg:Dictionary>
+  </sap:WorkflowViewStateService.ViewState>
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1281,5100" sap2010:WorkflowViewState.IdRef="Sequence_8">
+    <Sequence.Variables>
+      <Variable x:TypeArguments="x:Boolean" Name="newDetected" />
+      <Variable x:TypeArguments="x:String" Name="logPath" />
+      <Variable x:TypeArguments="x:String" Name="nowStr" />
+      <Variable x:TypeArguments="x:String" Name="topIdText" />
+      <Variable x:TypeArguments="x:String" Default="dgsim1001@korea.ac.kr" Name="toEmail" />
+      <Variable x:TypeArguments="x:String" Default="C:\RPA\ssaverytime-report\logs\" Name="logDir" />
+      <Variable x:TypeArguments="x:String" Default="http://16.176.4.128:5173/admin" Name="adminUrl" />
+      <Variable x:TypeArguments="x:String" Default="C:\RPA\ssaverytime-report\state\last_seen.txt" Name="stateFilePath" />
+      <Variable x:TypeArguments="x:Boolean" Name="stateExists" />
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="topId" />
+      <Variable x:TypeArguments="x:Int32" Default="0" Name="lastSeenId" />
+    </Sequence.Variables>
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="585,5077" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="551,4994" sap2010:WorkflowViewState.IdRef="TryCatch_1">
+        <TryCatch.Try>
+          <Sequence DisplayName="시도" sap:VirtualizedContainerService.HintSize="549,4637" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="515,153" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+              <ui:MultipleAssign.AssignOperations>
+                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                  <ui:AssignOperation sap:VirtualizedContainerService.HintSize="334,25" sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[nowStr]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">[Now.ToString("yyyy-MM-dd HH:mm:ss")]</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                </scg:List>
+              </ui:MultipleAssign.AssignOperations>
+            </ui:MultipleAssign>
+            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="515,153" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+              <ui:MultipleAssign.AssignOperations>
+                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:String">[logPath]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:String">[logDir + "\monitor_" + Now.ToString("yyyyMMdd") + ".log"]</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                </scg:List>
+              </ui:MultipleAssign.AssignOperations>
+            </ui:MultipleAssign>
+            <ui:FileExistsX DisplayName="File Exists" Exists="[stateExists]" sap:VirtualizedContainerService.HintSize="515,171" sap2010:WorkflowViewState.IdRef="FileExistsX_1" Path="[stateFilePath]" />
+            <If Condition="[stateExists]" sap:VirtualizedContainerService.HintSize="515,687" sap2010:WorkflowViewState.IdRef="If_1">
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="513,336" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                  <Sequence.Variables>
+                    <Variable x:TypeArguments="x:String" Name="lastText" />
+                  </Sequence.Variables>
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:ReadTextFile File="{x:Null}" Content="[lastText]" DisplayName="Read Text File" FileName="[stateFilePath]" sap:VirtualizedContainerService.HintSize="479,128" sap2010:WorkflowViewState.IdRef="ReadTextFile_1" />
+                  <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="479,144" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
+                    <ui:MultipleAssign.AssignOperations>
+                      <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+                          <ui:AssignOperation.To>
+                            <OutArgument x:TypeArguments="x:Int32">[lastSeenId]</OutArgument>
+                          </ui:AssignOperation.To>
+                          <ui:AssignOperation.Value>
+                            <InArgument x:TypeArguments="x:Int32">[CInt(lastText.Trim)]</InArgument>
+                          </ui:AssignOperation.Value>
+                        </ui:AssignOperation>
+                      </scg:List>
+                    </ui:MultipleAssign.AssignOperations>
+                  </ui:MultipleAssign>
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="513,208" sap2010:WorkflowViewState.IdRef="Sequence_7">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="479,144" sap2010:WorkflowViewState.IdRef="MultipleAssign_4">
+                    <ui:MultipleAssign.AssignOperations>
+                      <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                        <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+                          <ui:AssignOperation.To>
+                            <OutArgument x:TypeArguments="x:Int32">[lastSeenId]</OutArgument>
+                          </ui:AssignOperation.To>
+                          <ui:AssignOperation.Value>
+                            <InArgument x:TypeArguments="x:Int32">0</InArgument>
+                          </ui:AssignOperation.Value>
+                        </ui:AssignOperation>
+                      </scg:List>
+                    </ui:MultipleAssign.AssignOperations>
+                  </ui:MultipleAssign>
+                </Sequence>
+              </If.Else>
+            </If>
+            <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="515,127" sap2010:WorkflowViewState.IdRef="MessageBox_1" Text="[&quot;lastSeenId = &quot; + lastSeenId.ToString]" />
+            <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome Vite App" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="515,1206" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="8881889d-30e9-4ff9-a6da-bdf15cbdfaa2" Version="V2">
+              <uix:NApplicationCard.Body>
+                <ActivityAction x:TypeArguments="x:Object">
+                  <ActivityAction.Argument>
+                    <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                  </ActivityAction.Argument>
+                  <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="513,999" sap2010:WorkflowViewState.IdRef="Sequence_1">
+                    <sap:WorkflowViewStateService.ViewState>
+                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                      </scg:Dictionary>
+                    </sap:WorkflowViewStateService.ViewState>
+                    <uix:NCheckState DisplayName="Check App State '관리자 페이지'" HealingAgentBehavior="Disabled" sap:VirtualizedContainerService.HintSize="479,486" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="8881889d-30e9-4ff9-a6da-bdf15cbdfaa2" Version="V5">
+                      <uix:NCheckState.IfExists>
+                        <Sequence DisplayName="타겟이 나타남" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_9">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </uix:NCheckState.IfExists>
+                      <uix:NCheckState.IfNotExists>
+                        <Sequence DisplayName="타겟이 나타나지 않음" sap:VirtualizedContainerService.HintSize="450,94" sap2010:WorkflowViewState.IdRef="Sequence_10">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                        </Sequence>
+                      </uix:NCheckState.IfNotExists>
+                      <uix:NCheckState.Target>
+                        <uix:TargetAnchorable BrowserURL="16.176.4.128/admin" CVScreenId="cb2131af-e4c5-4e33-9520-b38d0517adc0" ContentHash="l_tH6MqqjUaz9ma30wc0-Q" CvTextArea="343, 155, 186, 34" CvTextArgument="22|A} ī||0|E|" CvType="Text" DesignTimeRectangle="345, 153, 185, 36" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;h1' tag='H1' /&gt;" Guid="5af063bd-a829-412c-8038-7438ddcae05c" InformativeScreenshot="8510020213a2598a475836e8f46fbf79.png" Reference="56aUFffDmUGJo62Ai9IUvg/FiJOzGwQcUeI6X9B1bTgwQ" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vite App' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NCheckState.Target>
+                    </uix:NCheckState>
+                    <uix:NGetText DisplayName="Get Text '33'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="479,147" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="8881889d-30e9-4ff9-a6da-bdf15cbdfaa2" TextString="[topIdText]" Version="V5">
+                      <uix:NGetText.Target>
+                        <uix:TargetAnchorable BrowserURL="16.176.4.128/admin" CVScreenId="cb2131af-e4c5-4e33-9520-b38d0517adc0" ContentHash="9FhPaAVKHUOIDS2jYGMscQ" CvType="AnyWordGroup" DesignTimeRectangle="371, 397, 80, 65" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='TD' /&gt;" Guid="6f45c420-f533-47a5-89c6-45b4360ba646" InformativeScreenshot="e72d77b1e74b165e97a0f8700eb086a9.png" Reference="56aUFffDmUGJo62Ai9IUvg/39xTUG4cwUKcJ2kSmEiFkA" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vite App' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                      </uix:NGetText.Target>
+                    </uix:NGetText>
+                    <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="479,153" sap2010:WorkflowViewState.IdRef="MultipleAssign_5">
+                      <ui:MultipleAssign.AssignOperations>
+                        <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                          <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+                            <ui:AssignOperation.To>
+                              <OutArgument x:TypeArguments="x:Int32">[topId]</OutArgument>
+                            </ui:AssignOperation.To>
+                            <ui:AssignOperation.Value>
+                              <InArgument x:TypeArguments="x:Int32">[CInt(topIdText.Trim)]</InArgument>
+                            </ui:AssignOperation.Value>
+                          </ui:AssignOperation>
+                        </scg:List>
+                      </ui:MultipleAssign.AssignOperations>
+                    </ui:MultipleAssign>
+                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" sap2010:Annotation.AnnotationText="" AutoCloseAfter="00:00:00" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="479,149" sap2010:WorkflowViewState.IdRef="MessageBox_2" Text="[&quot;topIdText=&quot; + topIdText + &quot; / topId=&quot; + topId.ToString]">
+                      <sap:WorkflowViewStateService.ViewState>
+                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                        </scg:Dictionary>
+                      </sap:WorkflowViewStateService.ViewState>
+                    </ui:MessageBox>
+                  </Sequence>
+                </ActivityAction>
+              </uix:NApplicationCard.Body>
+              <uix:NApplicationCard.OCREngine>
+                <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                  <ActivityFunc.Argument>
+                    <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                  </ActivityFunc.Argument>
+                </ActivityFunc>
+              </uix:NApplicationCard.OCREngine>
+              <uix:NApplicationCard.TargetApp>
+                <uix:TargetApp Area="-8, -8, 1936, 1048" BrowserType="Chrome" ContentHash="bODhi_IhTEG2YSsvBzICqA" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANxSURBVFhHxVZNaBNBFI5KqSIpgnjRi0dPetBNmmptBoQmTStRCwExu0mr0ZYottD6Q0trX/UoqOChepLSkyiK4qQ3PQQLnjx6EQ/15EFQUKQ48k1m29mZDVpN6wcfvM68933vvd2UjUT+NxinFsYpGmCFom3D5eiBI6eiTtoNMNZTaHJSrikTwZm8M/KhkRguS03Lh1MLGphhnF4zTtVlzk9X22+NVp2MV3XSrs4FJ+ONJIrnNsZP9C2bI8YZ7mSOXpPxpBY0Ax41zxk0kGOcPjNOYpkVEsnHk6L19FnhpFzhpDV2uYuxnoLjZLxIojQoiViedbmLgdyUKzWgBc2AR80zhwaaGaf7xqVg89Oi/e5lETtaCDYAZrzZeG/f5tixYgREjDMzD7XQgJalX/NsRgPgPsbpg5X0fEokhsr2FtLuF6fby+K5SyLGmTE9aqFh6da84ClfQp/jjNPPQGKFRMeDMRHr7bOb6PJexrLF7SBi0xw1qA1ZPTzgJX0l1B+7GKc3Id2KgxMXzQ2AS063d0ESsXGPGlNHER7wWvkJaVvIM07fzS0kH06IeP5MyBbcxbAXD7moCZke2vBYmd5oAr/NJ1bXFRLtN0fw8plbsJnxZG6IOQhteATNtQbAJOP0ySxOPr0mEgMDwunM26Y+O/MyB7lmvdKEtj29D3W5iXG6bQlUSBy+d0XEsgX7UYB48bIFmVNnemhC27QNQjWxh3F6Z4m8INE2er5uA7hDjlVX04KmaWdDexRDjNOSuYWOuXERz/UHm8CLl+uXdyHTQwNa9VdvQiXvYJxeWdNUSBy6PmxtAGch5iA0oGXa1Ie2heOM01ezgeSjSdFaLNW2gP/3xZI8C2kAtdD48+l9qKItjNOcNRV+lncuCafbk0QcYg6iFhqm/O+hbSHOOH20xJ9NiUR5UBKxdV+rQe3qp/ehijcwTjcsA7yQs2OSdaZHDWpN2dVBNbGbcXprmcA43By5qDHlVg/tUZQYpx8hZiaRg9y/X70JJbaNceIhhiaRg1xT5u+hbSFlfb4FiTvkNG56H0q0SX3EmsY+cYccs/zfoW1hL+P0PsQcZ7hr/PQ+tCauGp9viHG2duY+lMlOxmlBawAxzsz0xkPbwknG6Zsi4rWf3ocy26o+sUDEZtraQdvCfsX1m96H1sT6mzcSvwASdrVMcQVTjwAAAABJRU5ErkJggg==" InformativeScreenshot="80d4c43563344706a773fd606a7191dd.jpg" Reference="56aUFffDmUGJo62Ai9IUvg/JgBPVCG-7Uq2aGPpMBsv8A" Selector="&lt;html app='chrome.exe' title='Vite App' /&gt;" Url="http://16.176.4.128:5173/admin" Version="V2">
+                  <uix:TargetApp.Arguments>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.Arguments>
+                  <uix:TargetApp.WorkingDirectory>
+                    <InArgument x:TypeArguments="x:String" />
+                  </uix:TargetApp.WorkingDirectory>
+                </uix:TargetApp>
+              </uix:NApplicationCard.TargetApp>
+            </uix:NApplicationCard>
+            <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="515,153" sap2010:WorkflowViewState.IdRef="MultipleAssign_6">
+              <ui:MultipleAssign.AssignOperations>
+                <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                  <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+                    <ui:AssignOperation.To>
+                      <OutArgument x:TypeArguments="x:Boolean">[newDetected]</OutArgument>
+                    </ui:AssignOperation.To>
+                    <ui:AssignOperation.Value>
+                      <InArgument x:TypeArguments="x:Boolean">[(topId &gt; lastSeenId)]</InArgument>
+                    </ui:AssignOperation.Value>
+                  </ui:AssignOperation>
+                </scg:List>
+              </ui:MultipleAssign.AssignOperations>
+            </ui:MultipleAssign>
+            <If Condition="[newDetected]" sap:VirtualizedContainerService.HintSize="515,1923" sap2010:WorkflowViewState.IdRef="If_3">
+              <If.Then>
+                <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="486,1695" sap2010:WorkflowViewState.IdRef="Sequence_14">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NApplicationCard AttachMode="ByInstance" DisplayName="메일 - 심동근 - Outlook" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="452,1460" sap2010:WorkflowViewState.IdRef="NApplicationCard_4" ScopeGuid="3ea95cf1-6775-4325-8d1b-1a2b782d4d1f" Version="V2">
+                    <uix:NApplicationCard.Body>
+                      <ActivityAction x:TypeArguments="x:Object">
+                        <ActivityAction.Argument>
+                          <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                        </ActivityAction.Argument>
+                        <Sequence DisplayName="실행" sap:VirtualizedContainerService.HintSize="450,1201" sap2010:WorkflowViewState.IdRef="Sequence_17">
+                          <sap:WorkflowViewStateService.ViewState>
+                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            </scg:Dictionary>
+                          </sap:WorkflowViewStateService.ViewState>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '새 메일'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,198" sap2010:WorkflowViewState.IdRef="NClick_5" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3ea95cf1-6775-4325-8d1b-1a2b782d4d1f" Version="V5">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable CVScreenId="13a4a2ff-c20d-42a0-bc3a-fd9187efed41" ContentHash="slSVAU2KpEuZRkMDvjU5rQ" CvElementArea="67, 87, 122, 35" CvType="InputBox" DesignTimeRectangle="68, 88, 95, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd aaname='메일 - 심동근 - Outlook - 웹 콘텐츠' cls='Chrome_WidgetWin_1' title='메일 - 심동근 - Outlook' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='메일 - 심동근 - Outlook' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='리본' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='홈' role='property page' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='이동 및 삭제(&amp;amp;D)' role='grouping' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='새 메일' role='push button' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='새 메일' /&gt;" Guid="863c1230-8c7a-41de-b439-21f7fb3be256" InformativeScreenshot="ba8851156e6773d2295dc8ec2ca19ccd.png" Reference="56aUFffDmUGJo62Ai9IUvg/f8aqdDJZbUiYHcTth_rdPQ" ScopeSelectorArgument="&lt;wnd app='olk.exe' appid='Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows' title='메일 - 심동근 - Outlook' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" WaitForReadyArgument="Interactive">
+                                <uix:TargetAnchorable.Anchors>
+                                  <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                                    <uix:Target CVScreenId="13a4a2ff-c20d-42a0-bc3a-fd9187efed41" CvElementArea="67, 87, 122, 35" CvType="InputBox" DesignTimeRectangle="104, 94, 46, 19" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='메일 - 심동근 - Outlook - 웹 콘텐츠' cls='Chrome_WidgetWin_1' title='메일 - 심동근 - Outlook' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='메일 - 심동근 - Outlook' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='리본' role='pane' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='홈' role='property page' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='이동 및 삭제(&amp;amp;D)' role='grouping' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='새 메일' role='push button' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='새 메일' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='새 메일' /&gt;" Guid="018a1192-5f02-43b1-bd24-416e703e9fa2" SearchSteps="FuzzySelector, CV" />
+                                  </scg:List>
+                                </uix:TargetAnchorable.Anchors>
+                              </uix:TargetAnchorable>
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into '받는 사람'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_4" InteractionMode="SameAsCard" ScopeIdentifier="3ea95cf1-6775-4325-8d1b-1a2b782d4d1f" Text="[toEmail]" Version="V5">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable ContentHash="dX7RMLDhH0uOSb9mir_6lA" DesignTimeRectangle="740, 201, 550, 23" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='메일 - 심동근 - Outlook - 웹 콘텐츠' cls='Chrome_WidgetWin_1' title='메일 - 심동근 - Outlook' /&gt;&lt;ctrl name='메일 - 심동근 - Outlook' role='document' /&gt;&lt;ctrl name='읽기 창' role='grouping' /&gt;&lt;ctrl name='받는 사람' role='grouping' /&gt;" Guid="806948bc-067d-46b3-bebf-f2612c2986f5" InformativeScreenshot="448b78dfe1b93d13d088e058eddc8c48.png" Reference="56aUFffDmUGJo62Ai9IUvg/QTxWrui02UWIcMJqRmZUrQ" ScopeSelectorArgument="&lt;wnd app='olk.exe' appid='Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows' title='메일 - 심동근 - Outlook' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'editable text 과목'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_7" InteractionMode="SameAsCard" ScopeIdentifier="3ea95cf1-6775-4325-8d1b-1a2b782d4d1f" Text="신규 신고 게시글 감지" Version="V5">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable CVScreenId="670cdcfa-bbb9-425f-ac55-5f12312a5344" ContentHash="YYUOTPIKqUC5ZfvzMpme2w" CvTextArea="644, 252, 61, 16" CvTextArgument="A|S 57|" CvType="Text" DesignTimeRectangle="645, 245, 639, 31" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='메일 - 심동근 - Outlook - 웹 콘텐츠' cls='Chrome_WidgetWin_1' title='메일 - 심동근 - Outlook' /&gt;&lt;ctrl name='메일 - 심동근 - Outlook' role='document' /&gt;&lt;ctrl name='읽기 창' role='grouping' /&gt;&lt;ctrl name='과목' role='editable text' /&gt;" Guid="4ec6207d-390b-48d3-ab34-653b99672498" InformativeScreenshot="d6b58dd3dc466c4c13ab06d52caa03ed.png" Reference="56aUFffDmUGJo62Ai9IUvg/tDjUIED0_UqFcL_JvNf87Q" ScopeSelectorArgument="&lt;wnd app='olk.exe' appid='Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows' title='메일 - 심동근 - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type Into 'editable text 메시지 본문(1)'" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_9" InteractionMode="SameAsCard" ScopeIdentifier="3ea95cf1-6775-4325-8d1b-1a2b782d4d1f" Text="새로운 신고 게시글이 감지되었습니다." Version="V5">
+                            <uix:NTypeInto.Target>
+                              <uix:TargetAnchorable ContentHash="VCXg6tfHA0Wm0PBSptM4vA" DesignTimeRectangle="645, 301, 758, 380" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd aaname='메일 - 심동근 - Outlook - 웹 콘텐츠' cls='Chrome_WidgetWin_1' title='메일 - 심동근 - Outlook' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='메일 - 심동근 - Outlook' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='읽기 창' role='grouping' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='메시지 본문' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="bde97a95-0ef0-48f2-a26d-121331b13169" InformativeScreenshot="9bce1f84a541b1524a9302ab6400ba5d.png" Reference="56aUFffDmUGJo62Ai9IUvg/ZXnFtRFaBkCSCKf4P3gc8g" ScopeSelectorArgument="&lt;wnd app='olk.exe' appid='Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows' title='메일 - 심동근 - Outlook' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:NTypeInto.Target>
+                          </uix:NTypeInto>
+                          <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '보내기'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NClick_6" InteractionMode="SameAsCard" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3ea95cf1-6775-4325-8d1b-1a2b782d4d1f" Version="V5">
+                            <uix:NClick.Target>
+                              <uix:TargetAnchorable CVScreenId="670cdcfa-bbb9-425f-ac55-5f12312a5344" ContentHash="TQ1BqG7jIEu7BeXd6uVxxg" CvTextArea="683, 151, 43, 17" CvTextArgument="¥47|" CvType="Text" DesignTimeRectangle="645, 144, 94, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='메일 - 심동근 - Outlook - 웹 콘텐츠' cls='Chrome_WidgetWin_1' title='메일 - 심동근 - Outlook' /&gt;&lt;ctrl name='메일 - 심동근 - Outlook' role='document' /&gt;&lt;ctrl name='읽기 창' role='grouping' /&gt;&lt;ctrl name='보내기' role='push button' /&gt;" Guid="d1e89ce1-b637-401d-b07d-eec5ed939341" InformativeScreenshot="9f668ca053b53968c8faae8938fa0bde.png" Reference="56aUFffDmUGJo62Ai9IUvg/dxbQXxUMZkuK1FlzIEichg" ScopeSelectorArgument="&lt;wnd app='olk.exe' appid='Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows' title='메일 - 심동근 - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive" />
+                            </uix:NClick.Target>
+                          </uix:NClick>
+                        </Sequence>
+                      </ActivityAction>
+                    </uix:NApplicationCard.Body>
+                    <uix:NApplicationCard.OCREngine>
+                      <ActivityFunc x:TypeArguments="sd:Image, scg:IEnumerable(scg:KeyValuePair(sd1:Rectangle, x:String))">
+                        <ActivityFunc.Argument>
+                          <DelegateInArgument x:TypeArguments="sd:Image" Name="Image" />
+                        </ActivityFunc.Argument>
+                      </ActivityFunc>
+                    </uix:NApplicationCard.OCREngine>
+                    <uix:NApplicationCard.TargetApp>
+                      <uix:TargetApp Area="95, 279, 1440, 753" ContentHash="Ds_txEskD0eFZKFtHw85bQ" FilePath="Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows" IconBase64="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" InformativeScreenshot="75b6c72ca0e090e8616e34720dddd91c.png" Reference="56aUFffDmUGJo62Ai9IUvg/k_i7lqSpLEiUAMEF0qxkjg" Selector="&lt;wnd app='olk.exe' appid='Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows' title='메일 - 심동근 - Outlook' /&gt;" Version="V2">
+                        <uix:TargetApp.Arguments>
+                          <InArgument x:TypeArguments="x:String" />
+                        </uix:TargetApp.Arguments>
+                        <uix:TargetApp.WorkingDirectory>
+                          <InArgument x:TypeArguments="x:String" />
+                        </uix:TargetApp.WorkingDirectory>
+                      </uix:TargetApp>
+                    </uix:NApplicationCard.TargetApp>
+                  </uix:NApplicationCard>
+                  <ui:WriteTextFile FileName="{x:Null}" Output="{x:Null}" DisplayName="Write Text File" File="[LocalResource.FromPath(&quot;C:\\RPA\\ssaverytime-report\\state\\last_seen.txt&quot;)]" sap:VirtualizedContainerService.HintSize="452,171" sap2010:WorkflowViewState.IdRef="WriteTextFile_1" Text="[topId.ToString]" />
+                </Sequence>
+              </If.Then>
+              <If.Else>
+                <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="486,94" sap2010:WorkflowViewState.IdRef="Sequence_16">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                </Sequence>
+              </If.Else>
+            </If>
+          </Sequence>
+        </TryCatch.Try>
+        <TryCatch.Catches>
+          <Catch x:TypeArguments="s:Exception" sap2010:WorkflowViewState.IdRef="Catch`1_1">
+            <ActivityAction x:TypeArguments="s:Exception">
+              <ActivityAction.Argument>
+                <DelegateInArgument x:TypeArguments="s:Exception" Name="exception" />
+              </ActivityAction.Argument>
+              <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="549,94" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Sequence>
+            </ActivityAction>
+          </Catch>
+        </TryCatch.Catches>
+        <TryCatch.Finally>
+          <Sequence DisplayName="마지막" sap:VirtualizedContainerService.HintSize="549,94" sap2010:WorkflowViewState.IdRef="Sequence_4">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+          </Sequence>
+        </TryCatch.Finally>
+      </TryCatch>
+    </Sequence>
+  </Sequence>
+</Activity>

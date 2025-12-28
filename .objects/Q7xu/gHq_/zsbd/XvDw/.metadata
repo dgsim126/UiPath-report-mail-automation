@@ -1,0 +1,14 @@
+﻿{
+  "Name": "editable text 과목",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "XvDwCNb3Qkmgk7DXmD7Lhw",
+  "Reference": "56aUFffDmUGJo62Ai9IUvg/XvDwCNb3Qkmgk7DXmD7Lhw",
+  "ParentRef": "56aUFffDmUGJo62Ai9IUvg/zsbd2YoYKU2SIZ9qmOOjbA",
+  "Created": "2025-12-28T04:48:24.3216893Z",
+  "Updated": "2025-12-28T04:48:24.3216893Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.22.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.10.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

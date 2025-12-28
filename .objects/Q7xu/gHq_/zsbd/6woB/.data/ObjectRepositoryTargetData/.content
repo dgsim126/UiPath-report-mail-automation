@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="xFAJnR88v0-UjhMCa9tNEw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="629, 301, 320, 665" ElementType="InputBox" ElementVisibilityArgument="Interactive" FuzzySelectorArgument="&lt;wnd aaname='받은 편지함 - 심동근 - Outlook - 웹 콘텐츠' cls='Chrome_WidgetWin_1' title='받은 편지함 - 심동근 - Outlook' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='받은 편지함 - 심동근 - Outlook' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='읽기 창' role='grouping' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='메시지 본문' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="18cba14f-39b9-428d-985e-84b6b1a8c8b6" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='olk.exe' appid='Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows' title='받은 편지함 - 심동근 - Outlook' /&gt;" SearchSteps="FuzzySelector" Version="V6" WaitForReadyArgument="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="85b82822-c005-4786-9c04-2dbc441b79bd" CvTextArea="516, 634, 49, 13" CvTextArgument="Ę 19:24" CvType="Text" DesignTimeRectangle="516, 633, 48, 16" ElementType="Text" FuzzySelectorArgument="&lt;wnd aaname='받은 편지함 - 심동근 - Outlook - 웹 콘텐츠' cls='Chrome_WidgetWin_1' title='받은 편지함 - 심동근 - Outlook' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' matching:title='fuzzy' fuzzylevel:title='0.0' /&gt;&lt;ctrl name='받은 편지함 - 심동근 - Outlook' role='document' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='메시지 목록' role='grouping' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='메시지 목록 선택한 대화가 없습니다.' role='list' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='읽지 않음 사람인 회원님이 놓쳐선 안 되는 공고 모음! 토 19:24 나의 활동 2025-12-27 지금 회원님이 *' role='list item' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='토 19:24' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='토 19:24' /&gt;" Guid="c25c3d69-6b5c-42b6-a57b-ff2a201ba9ff" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="d8dbf4d89dd84d82a2656a18e1d353ba.png" xmlns="">0U3ZR89qvnk2hEQ4YjeiLNA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

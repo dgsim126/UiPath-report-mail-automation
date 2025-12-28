@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="YYUOTPIKqUC5ZfvzMpme2w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="670cdcfa-bbb9-425f-ac55-5f12312a5344" CvTextArea="644, 252, 61, 16" CvTextArgument="A|S 57|" CvType="Text" DesignTimeRectangle="645, 245, 639, 31" ElementType="InputBox" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='메일 - 심동근 - Outlook - 웹 콘텐츠' cls='Chrome_WidgetWin_1' title='메일 - 심동근 - Outlook' /&gt;&lt;ctrl name='메일 - 심동근 - Outlook' role='document' /&gt;&lt;ctrl name='읽기 창' role='grouping' /&gt;&lt;ctrl name='과목' role='editable text' /&gt;" Guid="4ec6207d-390b-48d3-ab34-653b99672498" ScopeSelectorArgument="&lt;wnd app='olk.exe' appid='Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows' title='메일 - 심동근 - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="d6b58dd3dc466c4c13ab06d52caa03ed.png" xmlns="">0Fu0xI24sBkCo2BknN_cfKA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

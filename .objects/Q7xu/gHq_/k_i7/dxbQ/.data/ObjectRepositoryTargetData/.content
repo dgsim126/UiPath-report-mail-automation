@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="TQ1BqG7jIEu7BeXd6uVxxg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="670cdcfa-bbb9-425f-ac55-5f12312a5344" CvTextArea="683, 151, 43, 17" CvTextArgument="¥47|" CvType="Text" DesignTimeRectangle="645, 144, 94, 32" ElementType="Button" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='메일 - 심동근 - Outlook - 웹 콘텐츠' cls='Chrome_WidgetWin_1' title='메일 - 심동근 - Outlook' /&gt;&lt;ctrl name='메일 - 심동근 - Outlook' role='document' /&gt;&lt;ctrl name='읽기 창' role='grouping' /&gt;&lt;ctrl name='보내기' role='push button' /&gt;" Guid="d1e89ce1-b637-401d-b07d-eec5ed939341" ScopeSelectorArgument="&lt;wnd app='olk.exe' appid='Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows' title='메일 - 심동근 - Outlook' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9f668ca053b53968c8faae8938fa0bde.png" xmlns="">0wT5tbv912EGvlXZcfcGjwg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

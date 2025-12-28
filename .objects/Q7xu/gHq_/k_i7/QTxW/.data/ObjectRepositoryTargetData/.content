@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="dX7RMLDhH0uOSb9mir_6lA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="740, 201, 550, 23" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='메일 - 심동근 - Outlook - 웹 콘텐츠' cls='Chrome_WidgetWin_1' title='메일 - 심동근 - Outlook' /&gt;&lt;ctrl name='메일 - 심동근 - Outlook' role='document' /&gt;&lt;ctrl name='읽기 창' role='grouping' /&gt;&lt;ctrl name='받는 사람' role='grouping' /&gt;" Guid="806948bc-067d-46b3-bebf-f2612c2986f5" ScopeSelectorArgument="&lt;wnd app='olk.exe' appid='Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows' title='메일 - 심동근 - Outlook' /&gt;" SearchSteps="Selector" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="448b78dfe1b93d13d088e058eddc8c48.png" xmlns="">0CL40mBP720S8jns8gV9FCw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

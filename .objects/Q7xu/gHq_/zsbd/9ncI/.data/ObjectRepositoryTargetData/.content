@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9vy8PZL1R0ejLMLtHlf6ig" Reference="56aUFffDmUGJo62Ai9IUvg/9ncISYtOZ0qOCJJZee-BtQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" DesignTimeRectangle="724, 201, 112, 23" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;wnd aaname='받은 편지함 - 심동근 - Outlook - 웹 콘텐츠' cls='Chrome_WidgetWin_1' title='받은 편지함 - 심동근 - Outlook' /&gt;&lt;ctrl name='받은 편지함 - 심동근 - Outlook' role='document' /&gt;&lt;ctrl name='읽기 창' role='grouping' /&gt;&lt;ctrl name='받는 사람' role='grouping' /&gt;" Guid="d029aa58-545b-4480-ac72-332bc1fe64e2" ScopeSelectorArgument="&lt;wnd app='olk.exe' appid='Microsoft.OutlookForWindows_8wekyb3d8bbwe!Microsoft.OutlookforWindows' title='받은 편지함 - 심동근 - Outlook' /&gt;" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="0qKg2QdIwVUyIqh37nDw9iQ" xmlns="">0qKg2QdIwVUyIqh37nDw9iQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

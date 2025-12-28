@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="9FhPaAVKHUOIDS2jYGMscQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="16.176.4.128/admin" CVScreenId="cb2131af-e4c5-4e33-9520-b38d0517adc0" CvType="AnyWordGroup" DesignTimeRectangle="371, 397, 80, 65" ElementType="Text" ElementVisibilityArgument="Interactive" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableRow='2' tag='TD' /&gt;" Guid="6f45c420-f533-47a5-89c6-45b4360ba646" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Vite App' /&gt;" SearchSteps="Selector, CV" Version="V6" WaitForReadyArgument="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="e72d77b1e74b165e97a0f8700eb086a9.png" xmlns="">0ZIxIrOo5Qk-UssuNQWXhIw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
